@@ -1,0 +1,9 @@
+{
+  "ui": {
+    "max_related_artist": 5,
+    "max_related_category": 5
+  },
+  "review": {
+    "allow_change": true
+  }
+}

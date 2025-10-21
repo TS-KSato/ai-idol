@@ -1,0 +1,159 @@
+{
+  "site": {
+    "name": "応援型ミュージック",
+    "description": "いいね・お気に入り・レビューでアーティストを応援しよう！",
+    "version": "1.0.0"
+  },
+  "categories": [
+    "Idol",
+    "J-POP",
+    "Rock",
+    "Ballad",
+    "Anime"
+  ],
+  "artists": [
+    {
+      "id": "a001",
+      "name": "樹里",
+      "bio": "透明感のある歌声で物語世界を紡ぐ新世代アイドル。",
+      "avatar": "assets/img/placeholder-artist.svg",
+      "followers": 3210
+    },
+    {
+      "id": "a002",
+      "name": "蒼井ユナ",
+      "bio": "澄んだハイトーンと切ないメロのJ-POPシンガー。",
+      "avatar": "assets/img/placeholder-artist.svg",
+      "followers": 2875
+    },
+    {
+      "id": "a003",
+      "name": "KAZE",
+      "bio": "ギターリフが代名詞のロックデュオ。",
+      "avatar": "assets/img/placeholder-artist.svg",
+      "followers": 1980
+    }
+  ],
+  "songs": [
+    {
+      "id": "s001",
+      "title": "星降る夜に",
+      "artist_id": "a001",
+      "category": "Idol",
+      "cover": "assets/img/placeholder-cover.svg",
+      "audio": "assets/audio/sample.wav",
+      "viewer_count": 4521,
+      "likes": 987,
+      "rating": 4.4,
+      "rating_count": 123
+    },
+    {
+      "id": "s002",
+      "title": "恋の灯標",
+      "artist_id": "a001",
+      "category": "Idol",
+      "cover": "assets/img/placeholder-cover.svg",
+      "audio": "assets/audio/sample.wav",
+      "viewer_count": 3910,
+      "likes": 812,
+      "rating": 4.2,
+      "rating_count": 98
+    },
+    {
+      "id": "s003",
+      "title": "さよならリグレット",
+      "artist_id": "a001",
+      "category": "Ballad",
+      "cover": "assets/img/placeholder-cover.svg",
+      "audio": "assets/audio/sample.wav",
+      "viewer_count": 2754,
+      "likes": 640,
+      "rating": 4.5,
+      "rating_count": 201
+    },
+    {
+      "id": "s004",
+      "title": "空色パレード",
+      "artist_id": "a002",
+      "category": "J-POP",
+      "cover": "assets/img/placeholder-cover.svg",
+      "audio": "assets/audio/sample.wav",
+      "viewer_count": 5120,
+      "likes": 1205,
+      "rating": 4.3,
+      "rating_count": 152
+    },
+    {
+      "id": "s005",
+      "title": "雨音に溶けて",
+      "artist_id": "a002",
+      "category": "Ballad",
+      "cover": "assets/img/placeholder-cover.svg",
+      "audio": "assets/audio/sample.wav",
+      "viewer_count": 2211,
+      "likes": 503,
+      "rating": 4.1,
+      "rating_count": 77
+    },
+    {
+      "id": "s006",
+      "title": "ブルームーン・ダンス",
+      "artist_id": "a002",
+      "category": "Anime",
+      "cover": "assets/img/placeholder-cover.svg",
+      "audio": "assets/audio/sample.wav",
+      "viewer_count": 3342,
+      "likes": 744,
+      "rating": 4.0,
+      "rating_count": 66
+    },
+    {
+      "id": "s007",
+      "title": "ワイルドスカイ",
+      "artist_id": "a003",
+      "category": "Rock",
+      "cover": "assets/img/placeholder-cover.svg",
+      "audio": "assets/audio/sample.wav",
+      "viewer_count": 6102,
+      "likes": 1320,
+      "rating": 4.6,
+      "rating_count": 260
+    },
+    {
+      "id": "s008",
+      "title": "薄明の街角",
+      "artist_id": "a003",
+      "category": "Rock",
+      "cover": "assets/img/placeholder-cover.svg",
+      "audio": "assets/audio/sample.wav",
+      "viewer_count": 2899,
+      "likes": 590,
+      "rating": 4.2,
+      "rating_count": 111
+    },
+    {
+      "id": "s009",
+      "title": "キミノセカイ",
+      "artist_id": "a001",
+      "category": "Anime",
+      "cover": "assets/img/placeholder-cover.svg",
+      "audio": "assets/audio/sample.wav",
+      "viewer_count": 3650,
+      "likes": 780,
+      "rating": 4.3,
+      "rating_count": 132
+    },
+    {
+      "id": "s010",
+      "title": "白い花",
+      "artist_id": "a002",
+      "category": "Ballad",
+      "cover": "assets/img/placeholder-cover.svg",
+      "audio": "assets/audio/sample.wav",
+      "viewer_count": 1998,
+      "likes": 420,
+      "rating": 4.0,
+      "rating_count": 55
+    }
+  ]
+}
