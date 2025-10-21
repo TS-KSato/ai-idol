@@ -1,41 +1,26 @@
 <!doctype html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>応援型ミュージック | アーティスト</title>
-  <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/profile.css">
-</head>
-<body>
-<header class="site-header">
-  <a class="back" href="index.html" aria-label="戻る">←</a>
-  <h1>アーティスト</h1>
-</header>
-
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>応援型ミュージック | アーティスト</title>
+<link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/profile.css">
+</head><body>
+<header class="site-header"><a class="back" href="index.html" aria-label="戻る">←</a><h1>アーティスト</h1></header>
 <main class="container">
-  <section id="artistCard" class="artist-card card">
-    <img id="artistAvatar" alt="artist">
-    <div>
-      <h2 id="artistName">Artist</h2>
-      <p id="artistBio" class="muted"></p>
-      <div class="meta"><span id="artistFollowers">0 フォロワー</span></div>
-    </div>
-  </section>
-
-  <section>
-    <h3>人気曲</h3>
-    <div id="artistSongs" class="vlist"></div>
-  </section>
+<section id="artistCard" class="artist-card card">
+  <img id="artistAvatar" alt="artist"><div>
+  <h2 id="artistName">Artist</h2>
+  <p id="artistTag" class="muted"></p><p id="artistBio" class="muted"></p>
+  <div class="meta"><span id="artistBasics"></span></div>
+  <div class="meta"><span id="artistFollowers"></span></div>
+  <div class="chips" id="lookChips"></div>
+  <div class="actions" style="margin-top:8px"><a id="playTop" class="btn">代表曲を再生</a></div>
+  </div>
+</section>
+<section class="card" style="padding:12px"><h3 style="margin-top:0">代表曲</h3><ol id="repSongs" class="vlist"></ol></section>
+<section class="card" style="padding:12px"><h3 style="margin-top:0">実績</h3><ul id="achievements" class="vlist"></ul></section>
+<section class="card" style="padding:12px"><h3 style="margin-top:0">ファン情報</h3><div id="fanInfo"></div></section>
+<section><h3>このアーティストの曲（サイト内データ）</h3><div id="artistSongs" class="vlist"></div></section>
 </main>
-
-<nav class="bottom-nav">
-  <a href="index.html">ランキング</a>
-  <a href="music.html">視聴</a>
-  <a class="active" href="profile.html">アーティスト</a>
-</nav>
-
-<script src="js/common.js"></script>
-<script src="js/profile.js"></script>
-</body>
-</html>
+<nav class="bottom-nav"><a href="index.html">ランキング</a><a href="music.html">視聴</a><a class="active" href="profile.html">アーティスト</a></nav>
+<script src="js/common.js"></script><script src="js/profile.js"></script>
+</body></html>
