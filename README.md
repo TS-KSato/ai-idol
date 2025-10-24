@@ -27,16 +27,16 @@ project/
 │   └── profile.json       # プロフィールページ設定
 └── assets/
     ├── img/
-    │   ├── idol_01_profile.jpg  # 樹里のプロフィール写真
-    │   ├── idol_02_profile.jpg  # 愛梨のプロフィール写真
-    │   ├── idol_03_profile.jpg  # 紫音のプロフィール写真
-    │   ├── idol_04_profile.jpg  # 陽のプロフィール写真
-    │   ├── idol_05_profile.jpg  # アリスのプロフィール写真
-    │   ├── idol_06_profile.jpg  # セレナのプロフィール写真
-    │   ├── idol_07_profile.jpg  # アメリのプロフィール写真
-    │   ├── idol_08_profile.jpg  # 奈々のプロフィール写真
-    │   ├── idol_09_profile.jpg  # リタのプロフィール写真
-    │   ├── idol_10_profile.jpg  # マリアのプロフィール写真
+    │   ├── ai-idol_01_profile.jpg  # 樹里のプロフィール写真
+    │   ├── ai-idol_02_profile.jpg  # 愛梨のプロフィール写真
+    │   ├── ai-idol_03_profile.jpg  # 紫音のプロフィール写真
+    │   ├── ai-idol_04_profile.jpg  # 陽のプロフィール写真
+    │   ├── ai-idol_05_profile.jpg  # アリスのプロフィール写真
+    │   ├── ai-idol_06_profile.jpg  # セレナのプロフィール写真
+    │   ├── ai-idol_07_profile.jpg  # アメリのプロフィール写真
+    │   ├── ai-idol_08_profile.jpg  # 奈々のプロフィール写真
+    │   ├── ai-idol_09_profile.jpg  # リタのプロフィール写真
+    │   ├── ai-idol_10_profile.jpg  # マリアのプロフィール写真
     │   ├── placeholder-cover.svg    # 楽曲カバー画像（プレースホルダー）
     │   └── placeholder-artist.svg   # アーティスト画像（フォールバック用）
     └── audio/
@@ -62,16 +62,16 @@ project/
 以下の画像ファイルを `assets/img/` ディレクトリに配置してください：
 
 ### プロフィール写真（必須）
-- `idol_01_profile.jpg` - 樹里
-- `idol_02_profile.jpg` - 愛梨
-- `idol_03_profile.jpg` - 紫音
-- `idol_04_profile.jpg` - 陽
-- `idol_05_profile.jpg` - アリス
-- `idol_06_profile.jpg` - セレナ
-- `idol_07_profile.jpg` - アメリ
-- `idol_08_profile.jpg` - 奈々
-- `idol_09_profile.jpg` - リタ
-- `idol_10_profile.jpg` - マリア
+- `ai-idol_01_profile.jpg` - 樹里
+- `ai-idol_02_profile.jpg` - 愛梨
+- `ai-idol_03_profile.jpg` - 紫音
+- `ai-idol_04_profile.jpg` - 陽
+- `ai-idol_05_profile.jpg` - アリス
+- `ai-idol_06_profile.jpg` - セレナ
+- `ai-idol_07_profile.jpg` - アメリ
+- `ai-idol_08_profile.jpg` - 奈々
+- `ai-idol_09_profile.jpg` - リタ
+- `ai-idol_10_profile.jpg` - マリア
 
 ### プレースホルダー画像（必須）
 - `placeholder-cover.svg` - 楽曲カバー画像のプレースホルダー

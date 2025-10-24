@@ -23,7 +23,7 @@
       "id": "アーティストID",
       "name": "名前",
       "bio": "略歴",
-      "avatar": "画像パス",
+      "avatar": "画像パス（ai-idol_XX_profile.jpg形式）",
       "followers": フォロワー数
     }
   ],
@@ -60,7 +60,7 @@
       "height_cm": 身長,
       "zodiac": "星座",
       "blood": "血液型",
-      "avatar": "画像パス",
+      "avatar": "画像パス（ai-idol_XX_profile.jpg形式）",
       "tagline": "キャッチコピー",
       "bio_short": "略歴",
       "socials": {
