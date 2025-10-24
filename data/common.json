@@ -20,72 +20,62 @@
     {
       "id": "a001",
       "name": "樹里",
-      "bio": "叶わぬ恋を歌う情熱のシンガー",
-      "avatar": "assets/img/ai-idol_01_profile.jpg",
-      "followers": 480000
+      "bio": "透明感のある中高音と感情で声が震える歌声の新世代シンガー",
+      "avatar": "assets/img/ai-idol_01_profile.jpg"
     },
     {
       "id": "a002",
       "name": "愛梨",
-      "bio": "知的な心理戦を歌う謎の女",
-      "avatar": "assets/img/ai-idol_02_profile.jpg",
-      "followers": 620000
+      "bio": "ハスキーで低音、囁くような歌い方が特徴のジャズシンガー",
+      "avatar": "assets/img/ai-idol_02_profile.jpg"
     },
     {
       "id": "a003",
       "name": "紫音",
-      "bio": "和の心で恋を綴る琴の歌姫",
-      "avatar": "assets/img/ai-idol_03_profile.jpg",
-      "followers": 280000
+      "bio": "透明で繊細な高音と琴の音色を融合させた和風ポップシンガー",
+      "avatar": "assets/img/ai-idol_03_profile.jpg"
     },
     {
       "id": "a004",
       "name": "陽",
-      "bio": "妖艶な魅力で魅了する中華歌姫",
-      "avatar": "assets/img/ai-idol_04_profile.jpg",
-      "followers": 850000
+      "bio": "艶やかで妖艶な中低音とビブラートが特徴の中華歌姫",
+      "avatar": "assets/img/ai-idol_04_profile.jpg"
     },
     {
       "id": "a005",
       "name": "アリス",
-      "bio": "ファンタジーの世界から来た夢想歌姫",
-      "avatar": "assets/img/ai-idol_05_profile.jpg",
-      "followers": 1800000
+      "bio": "高く透明な声とウィスパーボイスが特徴のファンタジーシンガー",
+      "avatar": "assets/img/ai-idol_05_profile.jpg"
     },
     {
       "id": "a006",
       "name": "セレナ",
-      "bio": "儚く切ない海の歌姫",
-      "avatar": "assets/img/ai-idol_06_profile.jpg",
-      "followers": 520000
+      "bio": "透明で儚い高音と波のような揺らぎが特徴の海の歌姫",
+      "avatar": "assets/img/ai-idol_06_profile.jpg"
     },
     {
       "id": "a007",
       "name": "アメリ",
-      "bio": "自由を歌う冒険シンガー",
-      "avatar": "assets/img/ai-idol_07_profile.jpg",
-      "followers": 1200000
+      "bio": "力強く伸びやかな中音域が特徴の冒険ロックシンガー",
+      "avatar": "assets/img/ai-idol_07_profile.jpg"
     },
     {
       "id": "a008",
       "name": "奈々",
-      "bio": "癒しの歌声を届ける天使",
-      "avatar": "assets/img/ai-idol_08_profile.jpg",
-      "followers": 420000
+      "bio": "柔らかく包み込むような中高音と子守唄のような歌声のヒーリングシンガー",
+      "avatar": "assets/img/ai-idol_08_profile.jpg"
     },
     {
       "id": "a009",
       "name": "リタ",
-      "bio": "情熱を爆発させる炎の歌姫",
-      "avatar": "assets/img/ai-idol_09_profile.jpg",
-      "followers": 920000
+      "bio": "力強く情熱的な中低音と激しいダンスパフォーマンスが特徴",
+      "avatar": "assets/img/ai-idol_09_profile.jpg"
     },
     {
       "id": "a010",
       "name": "マリア",
-      "bio": "知性と科学を歌うクールビューティ",
-      "avatar": "assets/img/ai-idol_10_profile.jpg",
-      "followers": 580000
+      "bio": "クールで知的な中音域とボコーダーを多用した未来的サウンド",
+      "avatar": "assets/img/ai-idol_10_profile.jpg"
     }
   ],
   "songs": [
@@ -96,10 +86,10 @@
       "category": "バラード",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 12000,
-      "likes": 3200,
-      "rating": 4.8,
-      "rating_count": 456
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s002",
@@ -108,10 +98,10 @@
       "category": "バラード",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 9800,
-      "likes": 2650,
-      "rating": 4.6,
-      "rating_count": 312
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s003",
@@ -120,10 +110,10 @@
       "category": "バラード",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 8500,
-      "likes": 2100,
-      "rating": 4.7,
-      "rating_count": 278
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s004",
@@ -132,10 +122,10 @@
       "category": "ジャズ",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 8000,
-      "likes": 2400,
-      "rating": 4.5,
-      "rating_count": 298
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s005",
@@ -144,10 +134,10 @@
       "category": "ジャズ",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 6700,
-      "likes": 1980,
-      "rating": 4.4,
-      "rating_count": 215
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s006",
@@ -156,10 +146,10 @@
       "category": "ジャズ",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 5800,
-      "likes": 1650,
-      "rating": 4.3,
-      "rating_count": 189
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s007",
@@ -168,10 +158,10 @@
       "category": "和風ポップ",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 6000,
-      "likes": 1850,
-      "rating": 4.6,
-      "rating_count": 234
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s008",
@@ -180,10 +170,10 @@
       "category": "和風ポップ",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 4900,
-      "likes": 1420,
-      "rating": 4.4,
-      "rating_count": 178
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s009",
@@ -192,10 +182,10 @@
       "category": "和風ポップ",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 4200,
-      "likes": 1280,
-      "rating": 4.5,
-      "rating_count": 156
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s010",
@@ -204,10 +194,10 @@
       "category": "中華フュージョン",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 15000,
-      "likes": 4200,
-      "rating": 4.7,
-      "rating_count": 512
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s011",
@@ -216,10 +206,10 @@
       "category": "中華フュージョン",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 12500,
-      "likes": 3650,
-      "rating": 4.6,
-      "rating_count": 423
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s012",
@@ -228,10 +218,10 @@
       "category": "中華フュージョン",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 10800,
-      "likes": 3100,
-      "rating": 4.5,
-      "rating_count": 378
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s013",
@@ -240,10 +230,10 @@
       "category": "ファンタジー",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 9000,
-      "likes": 2850,
-      "rating": 4.7,
-      "rating_count": 398
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s014",
@@ -252,10 +242,10 @@
       "category": "ファンタジー",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 7500,
-      "likes": 2320,
-      "rating": 4.5,
-      "rating_count": 312
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s015",
@@ -264,10 +254,10 @@
       "category": "ファンタジー",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 6800,
-      "likes": 2050,
-      "rating": 4.6,
-      "rating_count": 267
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s016",
@@ -276,10 +266,10 @@
       "category": "海洋系",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 7000,
-      "likes": 2100,
-      "rating": 4.8,
-      "rating_count": 289
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s017",
@@ -288,10 +278,10 @@
       "category": "海洋系",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 5600,
-      "likes": 1680,
-      "rating": 4.6,
-      "rating_count": 234
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s018",
@@ -300,10 +290,10 @@
       "category": "海洋系",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 4900,
-      "likes": 1450,
-      "rating": 4.7,
-      "rating_count": 198
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s019",
@@ -312,10 +302,10 @@
       "category": "冒険ロック",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 11000,
-      "likes": 3400,
-      "rating": 4.6,
-      "rating_count": 445
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s020",
@@ -324,10 +314,10 @@
       "category": "冒険ロック",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 9200,
-      "likes": 2850,
-      "rating": 4.5,
-      "rating_count": 367
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s021",
@@ -336,10 +326,10 @@
       "category": "冒険ロック",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 8100,
-      "likes": 2450,
-      "rating": 4.4,
-      "rating_count": 312
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s022",
@@ -348,10 +338,10 @@
       "category": "ヒーリング",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 5500,
-      "likes": 1620,
-      "rating": 4.9,
-      "rating_count": 287
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s023",
@@ -360,10 +350,10 @@
       "category": "ヒーリング",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 4700,
-      "likes": 1380,
-      "rating": 4.8,
-      "rating_count": 245
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s024",
@@ -372,10 +362,10 @@
       "category": "ヒーリング",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 4200,
-      "likes": 1250,
-      "rating": 4.7,
-      "rating_count": 212
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s025",
@@ -384,10 +374,10 @@
       "category": "ラテンロック",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 13000,
-      "likes": 3800,
-      "rating": 4.7,
-      "rating_count": 478
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s026",
@@ -396,10 +386,10 @@
       "category": "ラテンロック",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 10500,
-      "likes": 3200,
-      "rating": 4.6,
-      "rating_count": 389
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s027",
@@ -408,10 +398,10 @@
       "category": "ラテンロック",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 9200,
-      "likes": 2750,
-      "rating": 4.5,
-      "rating_count": 334
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s028",
@@ -420,10 +410,10 @@
       "category": "エレクトロ",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 4500,
-      "likes": 1320,
-      "rating": 4.4,
-      "rating_count": 198
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s029",
@@ -432,10 +422,10 @@
       "category": "エレクトロ",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 3800,
-      "likes": 1120,
-      "rating": 4.3,
-      "rating_count": 167
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "s030",
@@ -444,10 +434,10 @@
       "category": "エレクトロ",
       "cover": "assets/img/placeholder-cover.svg",
       "audio": "assets/audio/sample.wav",
-      "viewer_count": 3200,
-      "likes": 980,
-      "rating": 4.5,
-      "rating_count": 145
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
