@@ -31,16 +31,9 @@
   qs("#artistTag").textContent = profile.tagline;
   qs("#artistBio").textContent = profile.bio_short;
 
-  // 詳細情報（本名、誕生日、出身地など）
+  // 詳細情報（誕生日、星座、血液型のみ）
   qs("#artistBasics").textContent = 
-    `${profile.real_name} / ${profile.birth}（${profile.age}歳） / ${profile.hometown} / ${profile.height_cm}cm / ${profile.zodiac}・${profile.blood}型`;
-
-  // === SNSフォロワー数の表示 ===
-  const socialValues = Object.values(profile.socials || {}).map(Number);
-  const maxFollowers = socialValues.length ? Math.max(...socialValues) : 0;
-  qs("#artistFollowers").textContent = maxFollowers 
-    ? `${fmt(maxFollowers)} フォロワー（主要SNS）` 
-    : "SNS情報なし";
+    `${profile.birth} / ${profile.zodiac}・${profile.blood}型 / ${profile.hometown}`;
 
   // === 外見キーワード（チップ）の表示 ===
   const chipsContainer = qs("#lookChips");
@@ -83,17 +76,6 @@
     repSongsContainer.appendChild(li);
   });
 
-  // === 実績リストの表示 ===
-  const achievementsContainer = qs("#achievements");
-  (profile.achievements || []).forEach(achievement => {
-    const li = document.createElement("li");
-    li.textContent = achievement;
-    achievementsContainer.appendChild(li);
-  });
-
-  // === ファン情報の表示 ===
-  qs("#fanInfo").textContent = `ファンの呼び方：${profile.fan_name || "—"}`;
-
   // === サイト内楽曲リストの表示 ===
   const songsContainer = qs("#artistSongs");
   
@@ -108,7 +90,7 @@
     
     sortedSongs.forEach((song, index) => {
       const likes = applyLikeCount(song.likes, song.id);
-      const percentage = Math.max(6, Math.round(likes / (maxLikes || 1) * 100));
+      const percentage = maxLikes > 0 ? Math.max(6, Math.round(likes / maxLikes * 100)) : 6;
       
       const row = document.createElement("a");
       row.className = "rank-item";
@@ -135,7 +117,7 @@
     // 楽曲がない場合のメッセージ
     const message = document.createElement("p");
     message.className = "muted";
-    message.textContent = "このサイトのサンプルDBには登録曲が少ないため、代表曲リストをご参照ください。";
+    message.textContent = "このサイトには楽曲データがまだ登録されていません。代表曲リストをご参照ください。";
     songsContainer.appendChild(message);
   }
 
