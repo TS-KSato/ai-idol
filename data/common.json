@@ -21,70 +21,70 @@
       "id": "a001",
       "name": "樹里",
       "bio": "叶わぬ恋を歌う情熱のシンガー",
-      "avatar": "assets/img/idol_01_profile.jpg",
+      "avatar": "assets/img/ai-idol_01_profile.jpg",
       "followers": 480000
     },
     {
       "id": "a002",
       "name": "愛梨",
       "bio": "知的な心理戦を歌う謎の女",
-      "avatar": "assets/img/idol_02_profile.jpg",
+      "avatar": "assets/img/ai-idol_02_profile.jpg",
       "followers": 620000
     },
     {
       "id": "a003",
       "name": "紫音",
       "bio": "和の心で恋を綴る琴の歌姫",
-      "avatar": "assets/img/idol_03_profile.jpg",
+      "avatar": "assets/img/ai-idol_03_profile.jpg",
       "followers": 280000
     },
     {
       "id": "a004",
       "name": "陽",
       "bio": "妖艶な魅力で魅了する中華歌姫",
-      "avatar": "assets/img/idol_04_profile.jpg",
+      "avatar": "assets/img/ai-idol_04_profile.jpg",
       "followers": 850000
     },
     {
       "id": "a005",
       "name": "アリス",
       "bio": "ファンタジーの世界から来た夢想歌姫",
-      "avatar": "assets/img/idol_05_profile.jpg",
+      "avatar": "assets/img/ai-idol_05_profile.jpg",
       "followers": 1800000
     },
     {
       "id": "a006",
       "name": "セレナ",
       "bio": "儚く切ない海の歌姫",
-      "avatar": "assets/img/idol_06_profile.jpg",
+      "avatar": "assets/img/ai-idol_06_profile.jpg",
       "followers": 520000
     },
     {
       "id": "a007",
       "name": "アメリ",
       "bio": "自由を歌う冒険シンガー",
-      "avatar": "assets/img/idol_07_profile.jpg",
+      "avatar": "assets/img/ai-idol_07_profile.jpg",
       "followers": 1200000
     },
     {
       "id": "a008",
       "name": "奈々",
       "bio": "癒しの歌声を届ける天使",
-      "avatar": "assets/img/idol_08_profile.jpg",
+      "avatar": "assets/img/ai-idol_08_profile.jpg",
       "followers": 420000
     },
     {
       "id": "a009",
       "name": "リタ",
       "bio": "情熱を爆発させる炎の歌姫",
-      "avatar": "assets/img/idol_09_profile.jpg",
+      "avatar": "assets/img/ai-idol_09_profile.jpg",
       "followers": 920000
     },
     {
       "id": "a010",
       "name": "マリア",
       "bio": "知性と科学を歌うクールビューティ",
-      "avatar": "assets/img/idol_10_profile.jpg",
+      "avatar": "assets/img/ai-idol_10_profile.jpg",
       "followers": 580000
     }
   ],
