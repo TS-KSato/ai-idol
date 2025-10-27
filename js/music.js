@@ -1,4 +1,3 @@
-
 // ===== music.js =====
 (async function(){
   const conf = await loadJSON("data/music.json");
@@ -38,6 +37,18 @@
     // graceful fallback for missing audio
     qs("#title").insertAdjacentHTML("afterend", `<div class="muted" style="font-size:12px">※ サンプルの無音音源を再生しています</div>`);
     audio.src = "assets/audio/sample.wav";
+  });
+
+  // record rotation control
+  const record = qs("#record");
+  audio.addEventListener("play", ()=>{
+    record.classList.add("playing");
+  });
+  audio.addEventListener("pause", ()=>{
+    record.classList.remove("playing");
+  });
+  audio.addEventListener("ended", ()=>{
+    record.classList.remove("playing");
   });
 
   // fav / like buttons
