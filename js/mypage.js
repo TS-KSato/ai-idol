@@ -1,7 +1,7 @@
 // ===== mypage.js =====
 (async function() {
   // データ読み込み
-  const db = await DB.load();
+  await DB.load();
 
   // LocalStorageから全データを取得
   const allKeys = Object.keys(localStorage);
@@ -41,10 +41,10 @@
   if (favedSongIds.length > 0) {
     favContainer.innerHTML = '';
     favedSongIds.forEach(songId => {
-      const song = db.songById(songId);
+      const song = DB.songById(songId);
       if (!song) return;
       
-      const artist = db.artistById(song.artist_id);
+      const artist = DB.artistById(song.artist_id);
       const item = createSongItem(song, artist);
       favContainer.appendChild(item);
     });
@@ -55,10 +55,10 @@
   if (likedSongIds.length > 0) {
     likeContainer.innerHTML = '';
     likedSongIds.forEach(songId => {
-      const song = db.songById(songId);
+      const song = DB.songById(songId);
       if (!song) return;
       
-      const artist = db.artistById(song.artist_id);
+      const artist = DB.artistById(song.artist_id);
       const item = createSongItem(song, artist);
       likeContainer.appendChild(item);
     });
@@ -69,10 +69,10 @@
   if (reviewedSongs.length > 0) {
     reviewContainer.innerHTML = '';
     reviewedSongs.forEach(({ songId, rating }) => {
-      const song = db.songById(songId);
+      const song = DB.songById(songId);
       if (!song) return;
       
-      const artist = db.artistById(song.artist_id);
+      const artist = DB.artistById(song.artist_id);
       const item = createSongItemWithRating(song, artist, rating);
       reviewContainer.appendChild(item);
     });
