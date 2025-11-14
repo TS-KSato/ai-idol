@@ -1,7 +1,7 @@
 // ===== artists.js =====
 (async function() {
   // データ読み込み
-  const db = await DB.load();
+  await DB.load();
   const profileData = await loadJSON("data/profiles.json");
 
   const grid = qs("#artistsGrid");
@@ -11,7 +11,7 @@
 
   sortedProfiles.forEach(profile => {
     // common.jsonから対応するアーティストを取得
-    const artist = db.artists.find(a => a.id === profile.id);
+    const artist = DB.cache.artists.find(a => a.id === profile.id);
     if (!artist) return;
 
     // 代表曲のうち、最初の3曲を取得
