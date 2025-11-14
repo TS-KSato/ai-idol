@@ -1,7 +1,7 @@
 // ===== profile.js =====
 (async function() {
   // データ読み込み
-  const db = await DB.load();
+  await DB.load();
   const profileData = await loadJSON("data/profiles.json");
   const config = await loadJSON("data/profile.json");
 
@@ -48,13 +48,13 @@
   const repSongsContainer = qs("#repSongs");
   
   // common.jsonからこのアーティストのオブジェクトを取得
-  const artistObj = db.artists.find(a => 
+  const artistObj = DB.cache.artists.find(a => 
     a.id === profile.id || a.name === profile.stage_name
   );
   
   // このアーティストの楽曲一覧を取得
   const artistSongsList = artistObj 
-    ? db.songs.filter(s => s.artist_id === artistObj.id) 
+    ? DB.cache.songs.filter(s => s.artist_id === artistObj.id) 
     : [];
   
   // 楽曲タイトルから楽曲オブジェクトへのマップを作成
