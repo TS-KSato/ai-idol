@@ -1,10 +1,10 @@
 // ===== music.js =====
 (async function(){
   const conf = await loadJSON("data/music.json");
-  const db = await DB.load();
-  const id = getParam("id") || db.songs[0].id;
-  const song = db.songById(id);
-  const artist = db.artistById(song.artist_id);
+  await DB.load();
+  const id = getParam("id") || DB.cache.songs[0].id;
+  const song = DB.songById(id);
+  const artist = DB.artistById(song.artist_id);
 
   // fill UI
   qs("#cover").src = song.cover;
@@ -100,11 +100,11 @@
 
   // related (same artist)
   const relA = qs("#rel-artist");
-  const relArtist = db.songsByArtist(artist.id).filter(s=>s.id!==song.id).slice(0, conf.ui.max_related_artist);
+  const relArtist = DB.songsByArtist(artist.id).filter(s=>s.id!==song.id).slice(0, conf.ui.max_related_artist);
   relArtist.forEach(s=> relA.appendChild(songItemEl(s, artist)));
 
   // related (same category)
   const relC = qs("#rel-category");
-  const relCategory = db.songsByCategory(song.category).filter(s=>s.id!==song.id).slice(0, conf.ui.max_related_category);
-  relCategory.forEach(s=> relC.appendChild(songItemEl(s, db.artistById(s.artist_id))));
+  const relCategory = DB.songsByCategory(song.category).filter(s=>s.id!==song.id).slice(0, conf.ui.max_related_category);
+  relCategory.forEach(s=> relC.appendChild(songItemEl(s, DB.artistById(s.artist_id))));
 })();
