@@ -21,7 +21,34 @@ function fmt(num){
   if(num >= 1000) return (num/1000).toFixed(1).replace(/\.0$/,'') + "千";
   return String(num);
 }
-
+// ===== Loading UI =====
+const Loading = {
+  overlay: null,
+  
+  show(text = "読み込み中...") {
+    if (this.overlay) return; // 既に表示中の場合は何もしない
+    
+    this.overlay = document.createElement('div');
+    this.overlay.className = 'loading-overlay';
+    this.overlay.innerHTML = `
+      <div class="loading-spinner"></div>
+      <div class="loading-text">${text}</div>
+    `;
+    document.body.appendChild(this.overlay);
+  },
+  
+  hide() {
+    if (!this.overlay) return;
+    
+    this.overlay.classList.add('fade-out');
+    setTimeout(() => {
+      if (this.overlay && this.overlay.parentNode) {
+        this.overlay.parentNode.removeChild(this.overlay);
+      }
+      this.overlay = null;
+    }, 300); // fade-outアニメーションの時間と合わせる
+  }
+};
 // localStorage helpers
 const LS = {
   get(k, def=null){ try{ const v = localStorage.getItem(k); return v==null?def:JSON.parse(v);}catch(e){return def}},
