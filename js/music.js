@@ -35,12 +35,19 @@
     updateStats();
 
     const audio = qs("#audio");
-    audio.src = song.audio;
-    audio.addEventListener("error", ()=>{
-      // graceful fallback for missing audio
-      qs("#title").insertAdjacentHTML("afterend", `<div class="muted" style="font-size:12px">※ サンプルの無音音源を再生しています</div>`);
-      audio.src = "assets/audio/sample.wav";
-    });
+audio.src = song.audio;
+
+// エラーメッセージ表示フラグ
+let errorMessageShown = false;
+
+audio.addEventListener("error", ()=>{
+  // 一度だけエラーメッセージを表示
+  if (!errorMessageShown && audio.src !== "assets/audio/sample.wav") {
+    errorMessageShown = true;
+    qs("#title").insertAdjacentHTML("afterend", `<div class="muted" style="font-size:12px">※ サンプルの無音音源を再生しています</div>`);
+    audio.src = "assets/audio/sample.wav";
+  }
+});
 
     // record rotation control
     const record = qs("#record");
