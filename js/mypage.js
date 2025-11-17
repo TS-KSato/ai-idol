@@ -1,7 +1,10 @@
 // ===== mypage.js =====
 (async function() {
-  // データ読み込み
-  await DB.load();
+  Loading.show("マイページを読み込み中...");
+  
+  try {
+    // データ読み込み
+    await DB.load();
 
   // LocalStorageから全データを取得
   const allKeys = Object.keys(localStorage);
@@ -121,5 +124,11 @@
     `;
     
     return a;
+  }
+  } catch (error) {
+    console.error("データ読み込みエラー:", error);
+    alert("マイページの読み込みに失敗しました");
+  } finally {
+    Loading.hide();
   }
 })();
