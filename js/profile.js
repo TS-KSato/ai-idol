@@ -1,9 +1,12 @@
 // ===== profile.js =====
 (async function() {
-  // データ読み込み
-  await DB.load();
-  const profileData = await loadJSON("data/profiles.json");
-  const config = await loadJSON("data/profile.json");
+  Loading.show("プロフィールを読み込み中...");
+  
+  try {
+    // データ読み込み
+    await DB.load();
+    const profileData = await loadJSON("data/profiles.json");
+    const config = await loadJSON("data/profile.json");
 
   // URLパラメータからアーティストIDを取得
   const artistId = getParam("id");
@@ -17,7 +20,15 @@
   if (!profile) {
     profile = profileData.profiles[0];
   }
-
+playTopBtn.style.pointerEvents = "none";
+  }
+  } catch (error) {
+    console.error("データ読み込みエラー:", error);
+    alert("プロフィール情報の読み込みに失敗しました");
+  } finally {
+    Loading.hide();
+  }
+})();
   // === アバター画像の設定 ===
   const avatarImg = qs("#artistAvatar");
   avatarImg.src = profile.avatar;
