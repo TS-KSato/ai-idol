@@ -41,8 +41,8 @@ audio.src = song.audio;
 let errorMessageShown = false;
 
 audio.addEventListener("error", ()=>{
-  // 一度だけエラーメッセージを表示
-  if (!errorMessageShown && audio.src !== "assets/audio/sample.wav") {
+  // srcにsample.wavが含まれていない場合のみ処理
+  if (!errorMessageShown && !audio.src.includes("sample.wav")) {
     errorMessageShown = true;
     qs("#title").insertAdjacentHTML("afterend", `<div class="muted" style="font-size:12px">※ サンプルの無音音源を再生しています</div>`);
     audio.src = "assets/audio/sample.wav";
