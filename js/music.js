@@ -1,10 +1,13 @@
 // ===== music.js =====
 (async function(){
-  const conf = await loadJSON("data/music.json");
-  await DB.load();
-  const id = getParam("id") || DB.cache.songs[0].id;
-  const song = DB.songById(id);
-  const artist = DB.artistById(song.artist_id);
+  Loading.show("楽曲情報を読み込み中...");
+  
+  try {
+    const conf = await loadJSON("data/music.json");
+    await DB.load();
+    const id = getParam("id") || DB.cache.songs[0].id;
+    const song = DB.songById(id);
+    const artist = DB.artistById(song.artist_id);
 
   // fill UI
   qs("#cover").src = song.cover;
