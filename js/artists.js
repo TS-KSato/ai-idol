@@ -1,38 +1,47 @@
 // ===== artists.js =====
 (async function() {
-  // データ読み込み
-  await DB.load();
-  const profileData = await loadJSON("data/profiles.json");
+  Loading.show("アーティスト情報を読み込み中...");
+  
+  try {
+    // データ読み込み
+    await DB.load();
+    const profileData = await loadJSON("data/profiles.json");
 
-  const grid = qs("#artistsGrid");
+    const grid = qs("#artistsGrid");
 
-  // プロフィールデータでソート（IDの昇順）
-  const sortedProfiles = profileData.profiles.sort((a, b) => a.id.localeCompare(b.id));
+    // プロフィールデータでソート（IDの昇順）
+    const sortedProfiles = profileData.profiles.sort((a, b) => a.id.localeCompare(b.id));
 
-  sortedProfiles.forEach(profile => {
-    // common.jsonから対応するアーティストを取得
-    const artist = DB.cache.artists.find(a => a.id === profile.id);
-    if (!artist) return;
+    sortedProfiles.forEach(profile => {
+      // common.jsonから対応するアーティストを取得
+      const artist = DB.cache.artists.find(a => a.id === profile.id);
+      if (!artist) return;
 
-    // 代表曲のうち、最初の3曲を取得
-    const repSongsText = (profile.rep_songs || []).slice(0, 3).join('、');
+      // 代表曲のうち、最初の3曲を取得
+      const repSongsText = (profile.rep_songs || []).slice(0, 3).join('、');
 
-    // カード要素を作成
-    const card = document.createElement('a');
-    card.className = 'artist-card-item';
-    card.href = `profile.html?id=${encodeURIComponent(profile.id)}`;
-    
-    card.innerHTML = `
-      <div class="avatar-wrapper">
-        <img src="${artist.avatar}" alt="${artist.name}" onerror="this.src='assets/img/placeholder-artist.svg'">
-      </div>
-      <div class="info">
-        <h3 class="name">${artist.name}</h3>
-        <p class="bio">${artist.bio}</p>
-        ${repSongsText ? `<p class="rep-songs"><strong>代表曲:</strong> ${repSongsText}</p>` : ''}
-      </div>
-    `;
+      // カード要素を作成
+      const card = document.createElement('a');
+      card.className = 'artist-card-item';
+      card.href = `profile.html?id=${encodeURIComponent(profile.id)}`;
+      
+      card.innerHTML = `
+        <div class="avatar-wrapper">
+          <img src="${artist.avatar}" alt="${artist.name}" onerror="this.src='assets/img/placeholder-artist.svg'">
+        </div>
+        <div class="info">
+          <h3 class="name">${artist.name}</h3>
+          <p class="bio">${artist.bio}</p>
+          ${repSongsText ? `<p class="rep-songs"><strong>代表曲:</strong> ${repSongsText}</p>` : ''}
+        </div>
+      `;
 
-    grid.appendChild(card);
-  });
+      grid.appendChild(card);
+    });
+  } catch (error) {
+    console.error("データ読み込みエラー:", error);
+    alert("アーティスト情報の読み込みに失敗しました");
+  } finally {
+    Loading.hide();
+  }
 })();
