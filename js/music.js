@@ -20,6 +20,14 @@
   const liked = !!LS.get(keyLiked(song.id), false);
   const faved = !!LS.get(keyFaved(song.id), false);
   const myRate = LS.get(keyRated(song.id), 0);
+  relCategory.forEach(s=> relC.appendChild(songItemEl(s, DB.artistById(s.artist_id))));
+  } catch (error) {
+    console.error("データ読み込みエラー:", error);
+    alert("楽曲情報の読み込みに失敗しました");
+  } finally {
+    Loading.hide();
+  }
+})();
 
   function updateStats(){
     qs("#views").textContent = fmt(song.viewer_count) + " 視聴";
