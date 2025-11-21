@@ -35,30 +35,18 @@
     updateStats();
 
     const audio = qs("#audio");
-audio.src = song.audio;
+    audio.src = song.audio;
 
-// エラーメッセージ表示フラグ
-let errorMessageShown = false;
+    // エラーメッセージ表示フラグ
+    let errorMessageShown = false;
 
-audio.addEventListener("error", ()=>{
-  // srcにsample.wavが含まれていない場合のみ処理
-  if (!errorMessageShown && !audio.src.includes("sample.wav")) {
-    errorMessageShown = true;
-    qs("#title").insertAdjacentHTML("afterend", `<div class="muted" style="font-size:12px">※ サンプルの無音音源を再生しています</div>`);
-    audio.src = "assets/audio/sample.wav";
-  }
-});
-
-    // record rotation control
-    const record = qs("#record");
-    audio.addEventListener("play", ()=>{
-      record.classList.add("playing");
-    });
-    audio.addEventListener("pause", ()=>{
-      record.classList.remove("playing");
-    });
-    audio.addEventListener("ended", ()=>{
-      record.classList.remove("playing");
+    audio.addEventListener("error", ()=>{
+      // srcにsample.wavが含まれていない場合のみ処理
+      if (!errorMessageShown && !audio.src.includes("sample.wav")) {
+        errorMessageShown = true;
+        qs("#title").insertAdjacentHTML("afterend", `<div class="muted" style="font-size:12px">※ サンプルの無音音源を再生しています</div>`);
+        audio.src = "assets/audio/sample.wav";
+      }
     });
 
     // fav / like buttons
