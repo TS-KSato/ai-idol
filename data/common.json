@@ -523,8 +523,7 @@
   "likes": 0,
   "rating": 0,
   "rating_count": 0
-}
-  ,
+},
     {
   "id": "s037",
   "title": "遅すぎた季節",
@@ -544,6 +543,42 @@
   "category": "J-Pop",
   "cover": "assets/img/ai-idol_03_song06cover.jpg",
   "audio": "assets/audio/ai-idol_03_song06.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+},
+    {
+  "id": "s039",
+  "title": "名前のない感情",
+  "artist_id": "a004",
+  "category": "ワールドミュージック",
+  "cover": "assets/img/ai-idol_04_song04cover.jpg",
+  "audio": "assets/audio/ai-idol_04_song04.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+},
+    {
+  "id": "s040",
+  "title": "ただ生きて",
+  "artist_id": "a004",
+  "category": "ワールドミュージック",
+  "cover": "assets/img/ai-idol_04_song05cover.jpg",
+  "audio": "assets/audio/ai-idol_04_song05.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+},
+    {
+  "id": "s041",
+  "title": "私はいた",
+  "artist_id": "a004",
+  "category": "ワールドミュージック",
+  "cover": "assets/img/ai-idol_04_song06cover.jpg",
+  "audio": "assets/audio/ai-idol_04_song06.mp3",
   "viewer_count": 0,
   "likes": 0,
   "rating": 0,
