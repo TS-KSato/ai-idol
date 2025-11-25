@@ -23,6 +23,11 @@
         <span id="views">0 視聴</span>・<span id="likes">0 いいね</span>・<span id="rating">★0.0</span>
       </div>
       <audio id="audio" controls controlsList="nodownload" oncontextmenu="return false;" preload="none"></audio>
+<div class="volume-control">
+  <button id="muteBtn" class="volume-icon" aria-label="ミュート">🔊</button>
+  <input type="range" id="volumeSlider" min="0" max="100" value="80" aria-label="音量">
+  <span id="volumeValue">80%</span>
+</div>
       <div class="actions">
         <button id="favBtn" class="btn">♡ お気に入り</button>
         <button id="likeBtn" class="btn">👍 いいね</button>
