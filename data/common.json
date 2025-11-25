@@ -462,6 +462,18 @@
   "likes": 0,
   "rating": 0,
   "rating_count": 0
+},
+    {
+  "id": "s032",
+  "title": "空っぽの腕",
+  "artist_id": "a001",
+  "category": "バラード",
+  "cover": "assets/img/ai-idol_01_song06cover.jpg",
+  "audio": "assets/audio/ai-idol_01_song06.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
 }
   ]
 }
