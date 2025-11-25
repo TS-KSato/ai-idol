@@ -583,6 +583,42 @@
   "likes": 0,
   "rating": 0,
   "rating_count": 0
+},
+    {
+  "id": "s042",
+  "title": "白い花",
+  "artist_id": "a005",
+  "category": "エレクトロニカ",
+  "cover": "assets/img/ai-idol_05_song04cover.jpg",
+  "audio": "assets/audio/ai-idol_05_song04.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+},
+    {
+  "id": "s043",
+  "title": "塔の中の女",
+  "artist_id": "a005",
+  "category": "エレクトロニカ",
+  "cover": "assets/img/ai-idol_05_song05cover.jpg",
+  "audio": "assets/audio/ai-idol_05_song05.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+},
+    {
+  "id": "s044",
+  "title": "止まれない",
+  "artist_id": "a005",
+  "category": "エレクトロニカ",
+  "cover": "assets/img/ai-idol_05_song06cover.jpg",
+  "audio": "assets/audio/ai-idol_05_song06.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
 }
   ]
 }
