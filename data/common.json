@@ -474,8 +474,7 @@
   "likes": 0,
   "rating": 0,
   "rating_count": 0
-}
-    ,
+},
     {
   "id": "s033",
   "title": "名前のない光",
@@ -508,6 +507,43 @@
   "category": "ジャズ",
   "cover": "assets/img/ai-idol_02_song06cover.jpg",
   "audio": "assets/audio/ai-idol_02_song06.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+},
+    {
+  "id": "s036",
+  "title": "それだけで",
+  "artist_id": "a003",
+  "category": "J-Pop",
+  "cover": "assets/img/ai-idol_03_song04cover.jpg",
+  "audio": "assets/audio/ai-idol_03_song04.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+}
+  ,
+    {
+  "id": "s037",
+  "title": "遅すぎた季節",
+  "artist_id": "a003",
+  "category": "J-Pop",
+  "cover": "assets/img/ai-idol_03_song05cover.jpg",
+  "audio": "assets/audio/ai-idol_03_song05.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+},
+    {
+  "id": "s038",
+  "title": "優しさの檻",
+  "artist_id": "a003",
+  "category": "J-Pop",
+  "cover": "assets/img/ai-idol_03_song06cover.jpg",
+  "audio": "assets/audio/ai-idol_03_song06.mp3",
   "viewer_count": 0,
   "likes": 0,
   "rating": 0,
