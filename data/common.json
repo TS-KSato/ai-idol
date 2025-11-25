@@ -475,5 +475,43 @@
   "rating": 0,
   "rating_count": 0
 }
+    ,
+    {
+  "id": "s033",
+  "title": "名前のない光",
+  "artist_id": "a002",
+  "category": "ジャズ",
+  "cover": "assets/img/ai-idol_02_song04cover.jpg",
+  "audio": "assets/audio/ai-idol_02_song04.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+}
+  ,
+    {
+  "id": "s034",
+  "title": "五時の馬車",
+  "artist_id": "a002",
+  "category": "ジャズ",
+  "cover": "assets/img/ai-idol_02_song05cover.jpg",
+  "audio": "assets/audio/ai-idol_02_song05.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+},
+    {
+  "id": "s035",
+  "title": "隣を歩く",
+  "artist_id": "a002",
+  "category": "ジャズ",
+  "cover": "assets/img/ai-idol_02_song06cover.jpg",
+  "audio": "assets/audio/ai-idol_02_song06.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+}
   ]
 }
