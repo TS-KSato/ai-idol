@@ -438,6 +438,30 @@
       "likes": 0,
       "rating": 0,
       "rating_count": 0
-    }
+    },
+    {
+  "id": "s031",
+  "title": "届かない愛",
+  "artist_id": "a001",
+  "category": "バラード",
+  "cover": "assets/img/ai-idol_01_song04cover.jpg",
+  "audio": "assets/audio/ai-idol_01_song04.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+},
+{
+  "id": "s032",
+  "title": "開けなかった扉",
+  "artist_id": "a001",
+  "category": "バラード",
+  "cover": "assets/img/ai-idol_01_song05cover.jpg",
+  "audio": "assets/audio/ai-idol_01_song05.mp3",
+  "viewer_count": 0,
+  "likes": 0,
+  "rating": 0,
+  "rating_count": 0
+}
   ]
 }
