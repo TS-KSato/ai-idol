@@ -36,7 +36,52 @@
 
     const audio = qs("#audio");
     audio.src = song.audio;
+// Volume control
+const volumeSlider = qs("#volumeSlider");
+const volumeValue = qs("#volumeValue");
+const muteBtn = qs("#muteBtn");
+let previousVolume = 0.8;
 
+// 初期音量を設定（localStorageから復元）
+const savedVolume = LS.get("volume", 80);
+audio.volume = savedVolume / 100;
+volumeSlider.value = savedVolume;
+volumeValue.textContent = savedVolume + "%";
+updateMuteIcon();
+
+volumeSlider.addEventListener("input", () => {
+  const val = volumeSlider.value;
+  audio.volume = val / 100;
+  volumeValue.textContent = val + "%";
+  LS.set("volume", Number(val));
+  previousVolume = audio.volume;
+  updateMuteIcon();
+});
+
+muteBtn.addEventListener("click", () => {
+  if (audio.volume > 0) {
+    previousVolume = audio.volume;
+    audio.volume = 0;
+    volumeSlider.value = 0;
+    volumeValue.textContent = "0%";
+  } else {
+    audio.volume = previousVolume || 0.8;
+    volumeSlider.value = Math.round(audio.volume * 100);
+    volumeValue.textContent = Math.round(audio.volume * 100) + "%";
+  }
+  updateMuteIcon();
+});
+
+function updateMuteIcon() {
+  const vol = audio.volume;
+  if (vol === 0) {
+    muteBtn.textContent = "🔇";
+  } else if (vol < 0.5) {
+    muteBtn.textContent = "🔉";
+  } else {
+    muteBtn.textContent = "🔊";
+  }
+}
     // エラーメッセージ表示フラグ
     let errorMessageShown = false;
 
