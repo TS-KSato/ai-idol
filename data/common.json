@@ -618,6 +618,42 @@
       "likes": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s046",
+      "title": "二つの旋律の狭間で",
+      "artist_id": "a006",
+      "category": "アンビエント",
+      "cover": "assets/img/ai-idol_06_song04cover.jpg",
+      "audio": "assets/audio/ai-idol_06_song04.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s047",
+      "title": "泡沫の姉妹",
+      "artist_id": "a006",
+      "category": "アンビエント",
+      "cover": "assets/img/ai-idol_06_song05cover.jpg",
+      "audio": "assets/audio/ai-idol_06_song05.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s048",
+      "title": "罪なき呪い",
+      "artist_id": "a006",
+      "category": "アンビエント",
+      "cover": "assets/img/ai-idol_06_song06cover.jpg",
+      "audio": "assets/audio/ai-idol_06_song06.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
