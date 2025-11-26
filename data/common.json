@@ -654,6 +654,42 @@
       "likes": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s049",
+      "title": "青に溶けたい",
+      "artist_id": "a007",
+      "category": "ロック",
+      "cover": "assets/img/ai-idol_07_song04cover.jpg",
+      "audio": "assets/audio/ai-idol_07_song04.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s050",
+      "title": "まだ私じゃない",
+      "artist_id": "a007",
+      "category": "ロック",
+      "cover": "assets/img/ai-idol_07_song05cover.jpg",
+      "audio": "assets/audio/ai-idol_07_song05.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s051",
+      "title": "証明",
+      "artist_id": "a007",
+      "category": "ロック",
+      "cover": "assets/img/ai-idol_07_song06cover.jpg",
+      "audio": "assets/audio/ai-idol_07_song06.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
