@@ -88,6 +88,7 @@
       "audio": "assets/audio/ai-idol_01_song01.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -100,6 +101,7 @@
       "audio": "assets/audio/ai-idol_01_song02.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -112,6 +114,7 @@
       "audio": "assets/audio/ai-idol_01_song03.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -124,6 +127,7 @@
       "audio": "assets/audio/ai-idol_02_song01.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -136,6 +140,7 @@
       "audio": "assets/audio/ai-idol_02_song02.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -148,6 +153,7 @@
       "audio": "assets/audio/ai-idol_02_song03.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -160,6 +166,7 @@
       "audio": "assets/audio/ai-idol_03_song01.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -172,6 +179,7 @@
       "audio": "assets/audio/ai-idol_03_song02.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -184,6 +192,7 @@
       "audio": "assets/audio/ai-idol_03_song03.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -196,6 +205,7 @@
       "audio": "assets/audio/ai-idol_04_song01.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -208,6 +218,7 @@
       "audio": "assets/audio/ai-idol_04_song02.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -220,6 +231,7 @@
       "audio": "assets/audio/ai-idol_04_song03.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -232,6 +244,7 @@
       "audio": "assets/audio/ai-idol_05_song01.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -244,6 +257,7 @@
       "audio": "assets/audio/ai-idol_05_song02.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -256,6 +270,7 @@
       "audio": "assets/audio/ai-idol_05_song03.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -268,6 +283,7 @@
       "audio": "assets/audio/ai-idol_06_song01.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -280,6 +296,7 @@
       "audio": "assets/audio/ai-idol_06_song02.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -292,6 +309,7 @@
       "audio": "assets/audio/ai-idol_06_song03.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -304,6 +322,7 @@
       "audio": "assets/audio/ai-idol_07_song01.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -316,6 +335,7 @@
       "audio": "assets/audio/ai-idol_07_song02.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -328,6 +348,7 @@
       "audio": "assets/audio/ai-idol_07_song03.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -340,6 +361,7 @@
       "audio": "assets/audio/ai-idol_08_song01.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -352,6 +374,7 @@
       "audio": "assets/audio/ai-idol_08_song02.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -364,6 +387,7 @@
       "audio": "assets/audio/ai-idol_08_song03.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -376,6 +400,7 @@
       "audio": "assets/audio/ai-idol_09_song01.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -388,6 +413,7 @@
       "audio": "assets/audio/ai-idol_09_song02.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -400,6 +426,7 @@
       "audio": "assets/audio/ai-idol_09_song03.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -412,6 +439,7 @@
       "audio": "assets/audio/ai-idol_10_song01.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -424,6 +452,7 @@
       "audio": "assets/audio/ai-idol_10_song02.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -436,6 +465,7 @@
       "audio": "assets/audio/ai-idol_10_song03.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -448,6 +478,7 @@
       "audio": "assets/audio/ai-idol_01_song04.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -460,6 +491,7 @@
       "audio": "assets/audio/ai-idol_01_song05.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -472,6 +504,7 @@
       "audio": "assets/audio/ai-idol_01_song06.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -484,6 +517,7 @@
       "audio": "assets/audio/ai-idol_02_song04.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -496,6 +530,7 @@
       "audio": "assets/audio/ai-idol_02_song05.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -508,6 +543,7 @@
       "audio": "assets/audio/ai-idol_02_song06.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -520,6 +556,7 @@
       "audio": "assets/audio/ai-idol_03_song04.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -532,6 +569,7 @@
       "audio": "assets/audio/ai-idol_03_song05.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -544,6 +582,7 @@
       "audio": "assets/audio/ai-idol_03_song06.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -556,6 +595,7 @@
       "audio": "assets/audio/ai-idol_04_song04.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -568,6 +608,7 @@
       "audio": "assets/audio/ai-idol_04_song05.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -580,6 +621,7 @@
       "audio": "assets/audio/ai-idol_04_song06.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -592,6 +634,7 @@
       "audio": "assets/audio/ai-idol_05_song04.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -604,6 +647,7 @@
       "audio": "assets/audio/ai-idol_05_song05.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -616,6 +660,7 @@
       "audio": "assets/audio/ai-idol_05_song06.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -628,6 +673,7 @@
       "audio": "assets/audio/ai-idol_06_song04.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -640,6 +686,7 @@
       "audio": "assets/audio/ai-idol_06_song05.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -652,6 +699,7 @@
       "audio": "assets/audio/ai-idol_06_song06.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -664,6 +712,7 @@
       "audio": "assets/audio/ai-idol_07_song04.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -676,6 +725,7 @@
       "audio": "assets/audio/ai-idol_07_song05.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     },
@@ -688,6 +738,7 @@
       "audio": "assets/audio/ai-idol_07_song06.mp3",
       "viewer_count": 0,
       "likes": 0,
+      "favorites": 0,
       "rating": 0,
       "rating_count": 0
     }
