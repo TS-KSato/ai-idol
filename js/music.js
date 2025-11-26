@@ -160,13 +160,42 @@
     });
 
     // ===== related songs =====
-    const relA = qs("#rel-artist");
-    const relArtist = DB.songsByArtist(artist.id).filter(function(s){ return s.id !== song.id; }).slice(0, conf.ui.max_related_artist);
-    relArtist.forEach(function(s){ relA.appendChild(songItemEl(s, artist)); });
+    const maxRelated = conf.ui.max_related_artist || 5;
 
-    const relC = qs("#rel-category");
-    const relCategory = DB.songsByCategory(song.category).filter(function(s){ return s.id !== song.id; }).slice(0, conf.ui.max_related_category);
-    relCategory.forEach(function(s){ relC.appendChild(songItemEl(s, DB.artistById(s.artist_id))); });
+    // いいね数の多い曲（現在の曲を除外、localStorageのいいねも加算）
+    const relLikes = qs("#rel-likes");
+    const sortedByLikes = DB.cache.songs
+      .filter(function(s){ return s.id !== song.id; })
+      .map(function(s){
+        return {
+          song: s,
+          totalLikes: applyLikeCount(s.likes, s.id)
+        };
+      })
+      .sort(function(a, b){ return b.totalLikes - a.totalLikes; })
+      .slice(0, maxRelated);
+    
+    sortedByLikes.forEach(function(item){
+      relLikes.appendChild(songItemEl(item.song, DB.artistById(item.song.artist_id)));
+    });
+
+    // お気に入り数の多い曲（現在の曲を除外、localStorageのお気に入りも加算）
+    const relFavorites = qs("#rel-favorites");
+    const sortedByFavorites = DB.cache.songs
+      .filter(function(s){ return s.id !== song.id; })
+      .map(function(s){
+        const localFav = LS.get(keyFaved(s.id), false) ? 1 : 0;
+        return {
+          song: s,
+          totalFavorites: s.favorites + localFav
+        };
+      })
+      .sort(function(a, b){ return b.totalFavorites - a.totalFavorites; })
+      .slice(0, maxRelated);
+    
+    sortedByFavorites.forEach(function(item){
+      relFavorites.appendChild(songItemEl(item.song, DB.artistById(item.song.artist_id)));
+    });
     
   } catch (error) {
     console.error("データ読み込みエラー:", error);
