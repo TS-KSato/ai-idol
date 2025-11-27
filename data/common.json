@@ -780,6 +780,45 @@
       "favorites": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s055",
+      "title": "拒絶と自由",
+      "artist_id": "a009",
+      "category": "ラテンロック",
+      "cover": "assets/img/ai-idol_09_song04cover.jpg",
+      "audio": "assets/audio/ai-idol_09_song04.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s056",
+      "title": "あの方の図",
+      "artist_id": "a009",
+      "category": "ラテンロック",
+      "cover": "assets/img/ai-idol_09_song05cover.jpg",
+      "audio": "assets/audio/ai-idol_09_song05.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s057",
+      "title": "あなたも",
+      "artist_id": "a009",
+      "category": "ラテンロック",
+      "cover": "assets/img/ai-idol_09_song06cover.jpg",
+      "audio": "assets/audio/ai-idol_09_song06.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
