@@ -819,6 +819,45 @@
       "favorites": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s058",
+      "title": "言ってないし。",
+      "artist_id": "a010",
+      "category": "テクノポップ",
+      "cover": "assets/img/ai-idol_10_song04cover.jpg",
+      "audio": "assets/audio/ai-idol_10_song04.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s059",
+      "title": "加工じゃ盛れない",
+      "artist_id": "a010",
+      "category": "テクノポップ",
+      "cover": "assets/img/ai-idol_10_song05cover.jpg",
+      "audio": "assets/audio/ai-idol_10_song05.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s060",
+      "title": "うちらじゃん",
+      "artist_id": "a010",
+      "category": "テクノポップ",
+      "cover": "assets/img/ai-idol_10_song06cover.jpg",
+      "audio": "assets/audio/ai-idol_10_song06.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
