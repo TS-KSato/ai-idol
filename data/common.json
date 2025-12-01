@@ -910,6 +910,58 @@
       "favorites": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s065",
+      "title": "Silent Gambit",
+      "artist_id": "a002",
+      "category": "ジャズ",
+      "cover": "assets/img/ai-idol_02_song07cover.jpg",
+      "audio": "assets/audio/ai-idol_02_song07.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s066",
+      "title": "Wolf in the Silence",
+      "artist_id": "a002",
+      "category": "ジャズ",
+      "cover": "assets/img/ai-idol_02_song08cover.jpg",
+      "audio": "assets/audio/ai-idol_02_song08.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s066",
+      "title": "Echoes on the Seine",
+      "artist_id": "a002",
+      "category": "ジャズ",
+      "cover": "assets/img/ai-idol_02_song09cover.jpg",
+      "audio": "assets/audio/ai-idol_02_song09.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s067",
+      "title": "Mother of the Quiet Dawn",
+      "artist_id": "a002",
+      "category": "ジャズ",
+      "cover": "assets/img/ai-idol_02_song10cover.jpg",
+      "audio": "assets/audio/ai-idol_02_song10.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
