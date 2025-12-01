@@ -962,6 +962,58 @@
       "favorites": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s068",
+      "title": "紫の前夜にひそむもの",
+      "artist_id": "a003",
+      "category": "J-Pop",
+      "cover": "assets/img/ai-idol_03_song07cover.jpg",
+      "audio": "assets/audio/ai-idol_03_song07.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s069",
+      "title": "名前を持たない道を歩く",
+      "artist_id": "a003",
+      "category": "J-Pop",
+      "cover": "assets/img/ai-idol_03_song08cover.jpg",
+      "audio": "assets/audio/ai-idol_03_song08.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s070",
+      "title": "橋姫の曙に残したもの",
+      "artist_id": "a003",
+      "category": "J-Pop",
+      "cover": "assets/img/ai-idol_03_song09cover.jpg",
+      "audio": "assets/audio/ai-idol_03_song09.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s071",
+      "title": "千年越しのわかってほしい",
+      "artist_id": "a003",
+      "category": "J-Pop",
+      "cover": "assets/img/ai-idol_03_song10cover.jpg",
+      "audio": "assets/audio/ai-idol_03_song10.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
