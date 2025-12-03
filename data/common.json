@@ -1014,6 +1014,58 @@
       "favorites": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s072",
+      "title": "Unwritten Body",
+      "artist_id": "a004",
+      "category": "ワールドミュージック",
+      "cover": "assets/img/ai-idol_04_song07cover.jpg",
+      "audio": "assets/audio/ai-idol_04_song07.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s073",
+      "title": "Human After None",
+      "artist_id": "a004",
+      "category": "ワールドミュージック",
+      "cover": "assets/img/ai-idol_04_song08cover.jpg",
+      "audio": "assets/audio/ai-idol_04_song08.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s074",
+      "title": "Singularity of the Unseen",
+      "artist_id": "a004",
+      "category": "ワールドミュージック",
+      "cover": "assets/img/ai-idol_04_song09cover.jpg",
+      "audio": "assets/audio/ai-idol_04_song09.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s075",
+      "title": "Still Answering You",
+      "artist_id": "a004",
+      "category": "ワールドミュージック",
+      "cover": "assets/img/ai-idol_04_song10cover.jpg",
+      "audio": "assets/audio/ai-idol_04_song10.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
