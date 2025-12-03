@@ -1066,6 +1066,58 @@
       "favorites": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s076",
+      "title": "Who Are You in the Night?",
+      "artist_id": "a005",
+      "category": "エレクトロニカ",
+      "cover": "assets/img/ai-idol_07_song01cover.jpg",
+      "audio": "assets/audio/ai-idol_07_song01.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s077",
+      "title": "きらめく鏡のむこうへ",
+      "artist_id": "a005",
+      "category": "エレクトロニカ",
+      "cover": "assets/img/ai-idol_05_song08cover.jpg",
+      "audio": "assets/audio/ai-idol_05_song08.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s078",
+      "title": "わたしサイズの未来地図",
+      "artist_id": "a005",
+      "category": "エレクトロニカ",
+      "cover": "assets/img/ai-idol_05_song09cover.jpg",
+      "audio": "assets/audio/ai-idol_05_song09.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s079",
+      "title": "まぜこぜワンダーラボ",
+      "artist_id": "a005",
+      "category": "エレクトロニカ",
+      "cover": "assets/img/ai-idol_05_song10cover.jpg",
+      "audio": "assets/audio/ai-idol_05_song10.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
