@@ -1118,6 +1118,58 @@
       "favorites": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s080",
+      "title": "怪物だった私へ",
+      "artist_id": "a006",
+      "category": "アンビエント",
+      "cover": "assets/img/ai-idol_06_song07cover.jpg",
+      "audio": "assets/audio/ai-idol_06_song07.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s081",
+      "title": "見てるだけ",
+      "artist_id": "a006",
+      "category": "アンビエント",
+      "cover": "assets/img/ai-idol_06_song08cover.jpg",
+      "audio": "assets/audio/ai-idol_06_song08.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s082",
+      "title": "海のないところで歌う理由",
+      "artist_id": "a006",
+      "category": "アンビエント",
+      "cover": "assets/img/ai-idol_06_song09cover.jpg",
+      "audio": "assets/audio/ai-idol_06_song09.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s083",
+      "title": "汽水域の唄",
+      "artist_id": "a006",
+      "category": "アンビエント",
+      "cover": "assets/img/ai-idol_06_song10cover.jpg",
+      "audio": "assets/audio/ai-idol_06_song10.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
