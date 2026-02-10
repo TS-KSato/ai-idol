@@ -1170,6 +1170,58 @@
       "favorites": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s084",
+      "title": "名前のない空",
+      "artist_id": "a007",
+      "category": "ロック",
+      "cover": "assets/img/ai-idol_07_song07cover.jpg",
+      "audio": "assets/audio/ai-idol_07_song07.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s085",
+      "title": "空を組み立てる",
+      "artist_id": "a007",
+      "category": "ロック",
+      "cover": "assets/img/ai-idol_07_song08cover.jpg",
+      "audio": "assets/audio/ai-idol_07_song08.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s086",
+      "title": "",
+      "artist_id": "a007",
+      "category": "ロック",
+      "cover": "assets/img/ai-idol_07_song09cover.jpg",
+      "audio": "assets/audio/ai-idol_07_song09.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s087",
+      "title": "",
+      "artist_id": "a007",
+      "category": "ロック",
+      "cover": "assets/img/ai-idol_07_song10cover.jpg",
+      "audio": "assets/audio/ai-idol_07_song10.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
