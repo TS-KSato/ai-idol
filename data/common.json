@@ -1222,6 +1222,58 @@
       "favorites": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s088",
+      "title": "体温",
+      "artist_id": "a008",
+      "category": "ヒーリング",
+      "cover": "assets/img/ai-idol_08_song07cover.jpg",
+      "audio": "assets/audio/ai-idol_08_song07.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s089",
+      "title": "",
+      "artist_id": "a008",
+      "category": "ヒーリング",
+      "cover": "assets/img/ai-idol_08_song08cover.jpg",
+      "audio": "assets/audio/ai-idol_08_song08.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s090",
+      "title": "",
+      "artist_id": "a008",
+      "category": "ヒーリング",
+      "cover": "assets/img/ai-idol_08_song09cover.jpg",
+      "audio": "assets/audio/ai-idol_08_song09.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s091",
+      "title": "",
+      "artist_id": "a008",
+      "category": "ヒーリング",
+      "cover": "assets/img/ai-idol_08_song10cover.jpg",
+      "audio": "assets/audio/ai-idol_08_song10.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
