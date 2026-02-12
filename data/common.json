@@ -1327,6 +1327,58 @@
       "favorites": 0,
       "rating": 0,
       "rating_count": 0
+    },
+    {
+      "id": "s096",
+      "title": "原宿実験",
+      "artist_id": "a010",
+      "category": "テクノポップ",
+      "cover": "assets/img/ai-idol_10_song07cover.jpg",
+      "audio": "assets/audio/ai-idol_10_song07.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s097",
+      "title": "ワタシタチ",
+      "artist_id": "a010",
+      "category": "テクノポップ",
+      "cover": "assets/img/ai-idol_10_song08cover.jpg",
+      "audio": "assets/audio/ai-idol_10_song08.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s098",
+      "title": "Reine Numérique",
+      "artist_id": "a010",
+      "category": "テクノポップ",
+      "cover": "assets/img/ai-idol_10_song09cover.jpg",
+      "audio": "assets/audio/ai-idol_10_song09.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s099",
+      "title": "La Cour Éternelle",
+      "artist_id": "a010",
+      "category": "テクノポップ",
+      "cover": "assets/img/ai-idol_10_song10cover.jpg",
+      "audio": "assets/audio/ai-idol_10_song10.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
