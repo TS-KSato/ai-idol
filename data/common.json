@@ -1275,5 +1275,58 @@
       "rating": 0,
       "rating_count": 0
     }
+    ,
+    {
+      "id": "s092",
+      "title": "第5幕の灰",
+      "artist_id": "a009",
+      "category": "ラテン",
+      "cover": "assets/img/ai-idol_09_song07cover.jpg",
+      "audio": "assets/audio/ai-idol_09_song07.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s093",
+      "title": "Jaula de Oro",
+      "artist_id": "a009",
+      "category": "ラテン",
+      "cover": "assets/img/ai-idol_09_song08cover.jpg",
+      "audio": "assets/audio/ai-idol_09_song08.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s094",
+      "title": "Compás Roto",
+      "artist_id": "a009",
+      "category": "ラテン",
+      "cover": "assets/img/ai-idol_09_song09cover.jpg",
+      "audio": "assets/audio/ai-idol_09_song09.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    },
+    {
+      "id": "s095",
+      "title": "La Décima Noche",
+      "artist_id": "a009",
+      "category": "ラテン",
+      "cover": "assets/img/ai-idol_09_song10cover.jpg",
+      "audio": "assets/audio/ai-idol_09_song10.mp3",
+      "viewer_count": 0,
+      "likes": 0,
+      "favorites": 0,
+      "rating": 0,
+      "rating_count": 0
+    }
   ]
 }
